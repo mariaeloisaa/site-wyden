@@ -120,7 +120,6 @@ body {
     }
 }
 
-/* Media queries para layouts maiores */
 @media (min-width: 768px) {
     .container-header {
         flex-direction: row;
@@ -149,7 +148,6 @@ body {
     }
 }
 
-/* Media queries para telas maiores */
 @media (min-width: 1024px) {
     .container-main {
         .lado1 {
@@ -161,7 +159,6 @@ body {
     }
 }
 
-/* Footer e outros elementos responsivos */
 footer {
     padding: 20px;
     background-color: black;
