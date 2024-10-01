@@ -1,7 +1,13 @@
- font-family: Poppins;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    font-family: Poppins;
 }
 body{
-    background-image: url(./img/back.jpg);
     background-image: linear-gradient(to right, #c62b37,#b21420,#c84b7f);
     background-repeat: no-repeat;
     background-size: 100vw 27000px; 
@@ -53,7 +59,7 @@ body{
             left: 350px;
             top: 120px;
             border-radius: 30px;
-
+            
             .Segurar{
                 display: flex;
                 flex-direction: column;
@@ -104,7 +110,7 @@ body{
                     }
                 }
             }
-
+            
         }
     }
     .lado2{
@@ -131,7 +137,7 @@ body{
 .container-main2{
     position: relative;
     top: 450px;
-
+    
 
     .titulo{
         font-size: 100px;
@@ -165,13 +171,13 @@ body{
         }
 
         .info{
-
+            
             .informations{
                 font-size: 30px;
                 color: white;
                 width: 800px;
                 text-align: start;
-
+                
             }
         }
     }
@@ -213,12 +219,12 @@ body{
             margin-bottom: 150px;
         }
     }
-
+    
     .segurar3{
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-
+    
         .cont{
             display: flex;
             flex-direction: column;
@@ -241,7 +247,7 @@ body{
                 gap: 50px;
                 position: relative;
                 left: 40px;
-
+    
                 li{
                     list-style-type: disc;
                     width: 1000px;
@@ -260,7 +266,7 @@ body{
             }
         }
     }
-
+    
 }
 .sobre{
     position: relative;
@@ -327,7 +333,7 @@ body{
             flex-direction: column;
             align-items: center;
             text-align: center;
-
+            
             h5{
                 font-size: 75px;
             }
@@ -362,7 +368,7 @@ body{
             box-shadow: 1px 1px 100px 1px black;
             position: relative;
             margin-bottom: 150px;
-
+            
         }
     }
     .segurarPratica{
@@ -455,7 +461,7 @@ body{
     top: 2700px;
     .titulo7{
         .titulo7{   
-
+            
             font-size: 100px;
             color: white;
             font-weight: 600;
@@ -493,7 +499,7 @@ body{
     top: 3300px;
     .titulo6{
         .titulo6{
-
+            
             font-size: 100px;
             color: white;
             font-weight: 600;
@@ -635,7 +641,7 @@ body{
     top: 3600px;
     .titulo7{
         .titulo7{
-
+            
             font-size: 100px;
             color: white;
             font-weight: 600;
