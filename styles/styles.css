@@ -8,9 +8,10 @@
     font-family: Poppins;
 }
 body{
-    background-image: url(./img/back.jpg);
+    background-image: linear-gradient(to right, #c62b37,#b21420,#c84b7f);
     background-repeat: no-repeat;
     background-size: 100vw 27000px; 
+    overflow-x: hidden;
 }
 .container-header{
     display: flex;
