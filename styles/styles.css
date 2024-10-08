@@ -12,6 +12,7 @@
 
 body {
     background-image: url(/img/back.jpg);
+    background: linear-gradient(90deg, rgba(201,46,60,1) 0%, rgba(178,18,28,1) 35%, rgba(202,81,137,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
