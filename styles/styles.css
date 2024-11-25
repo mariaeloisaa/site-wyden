@@ -26,23 +26,24 @@ body {
     position: relative;
     height: 100px;
     padding: 0 20px;
+    background-color: rgba(178,18,28,1);
 
     .logo {
         color: white;
-        font-size: 45px;
+        font-size: 30px;
         position: relative;
     }
 
     nav {
         ul {
             display: flex;
-            gap: 50px;
+            gap: 40px;
             list-style: none; 
 
             li {
                 a {
-                    font-size: 25px;
-                    font-weight: 600;
+                    font-size: 20px;
+                    font-weight: 500;
                     color: white;
                     text-decoration: none;
 
@@ -62,17 +63,18 @@ body {
         align-items: flex-start;
         height: auto;
         padding: 10px;
+        width: 350px;
+    }
+    .container-header p{
+        font-size: 35px;
+        
     }
 
-    .logo {
-        font-size: 35px;
-        margin-bottom: 10px;
-    }
 
     nav {
         ul {
             flex-direction: column;
-            gap: 20px;
+
         }
     }
 }
@@ -193,13 +195,13 @@ body {
 
 .container-main2 {
     position: relative;
-    top: 450px;
+    top: 80px;
     text-align: center;
 
     .titulo {
-        font-size: 100px;
+        font-size: 40px;
         color: white;
-        font-weight: 600;
+        font-weight: 200;
         position: relative;
         bottom: 50px;
 
@@ -218,11 +220,10 @@ body {
         justify-content: space-around;
         flex-wrap: wrap;
         position: relative;
-        top: 200px;
 
         .imagem2 {
             width: 100%; 
-            max-width: 650px;
+            max-width: 500px;
             height: auto;
             border-radius: 100%;
             box-shadow: 1px 1px 100px 10px rgb(255, 99, 94);
@@ -238,7 +239,7 @@ body {
 
         .info {
             .informations {
-                font-size: 30px;
+                font-size: 20px;
                 color: white;
                 width: 100%;
                 max-width: 800px;
@@ -252,7 +253,7 @@ body {
 
     #segurar3 {
         position: relative;
-        top: 450px;
+        top: 50px;
 
         #informations {
             p {
@@ -263,7 +264,7 @@ body {
 
     #segurar4 {
         position: relative;
-        top: 850px;
+        top: 50px;
 
         #informations3 {
             p {
@@ -295,21 +296,21 @@ body {
     }
 }
 
-.beneficio {
+.beneficios {
     position: relative;
-    top: 160px;
+    top: 60px;
 
     .titulo {
         .titulo2 {
-            font-size: 100px;
+            font-size: 60px;
             color: white;
             font-weight: 600;
             text-align: center;
             box-shadow: 1px 1px 100px 1px black;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
 
             @media (max-width: 768px) {
-                font-size: 60px;
+                font-size: 25px;
                 margin-bottom: 30px;
             }
         }
@@ -329,13 +330,13 @@ body {
 
             h1 {
                 width: 100%;
-                font-size: 65px;
+                font-size: 25px;
                 font-weight: 800;
                 color: white;
                 text-align: start;
 
                 @media (max-width: 768px) {
-                    font-size: 40px;
+                    font-size: 18px;
                 }
             }
 
@@ -380,6 +381,7 @@ body {
                     width: 100%;
                     height: auto;
                 }
+
             }
         }
     }
@@ -448,14 +450,15 @@ body {
     flex-wrap: wrap;
     position: relative;
     top: 150px;
+}
 
     .missao, .visao, .valores {
         background-color: red;
         box-shadow: 1px 1px 30px 10px red;
         color: white;
-        font-size: 20px;
-        width: 600px;
-        height: 300px;
+        font-size: 15px;
+        width: 350px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -474,10 +477,34 @@ body {
         }
 
         @media (max-width: 768px) {
+    
             width: 100%; 
             height: auto; 
+
+            .segurar4-1 {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                position: relative;
+                top: 150px;
+            .missao, .visao, .valores {
+                transition: 1s all;
+                font-size: 2px;
+                width: 420px; 
+                background-color: rgb(255, 161, 161);
+                box-shadow: 1px 1px 30px 10px rgb(255, 255, 255);
+                color: rgb(255, 0, 0);
+                }
+            }
         }
+    .visao {
+        background-color: rgb(255, 51, 51);
+        position: relative;
+        bottom: 40px;
+        z-index: 2;
     }
+        
+    
 
     .missao:hover, .visao:hover, .valores:hover {
         transition: 1s all;
@@ -485,7 +512,7 @@ body {
         width: 620px; 
         background-color: rgb(255, 161, 161);
         box-shadow: 1px 1px 30px 10px rgb(255, 255, 255);
-        color: black;
+        color: rgb(255, 0, 0);
     }
 
     .visao {
@@ -582,7 +609,7 @@ body {
 
 .oquenecessario {
     position: relative;
-    top: 200px;
+    top: 40px;
 
     .titulo7 {
         font-size: 50px;
@@ -590,7 +617,7 @@ body {
         font-weight: 600;
         text-align: center;
         box-shadow: 1px 1px 100px 1px black;
-        margin-bottom: 470px;
+        margin-bottom: 70px;
 
         @media (max-width: 768px) {
             font-size: 20px;
@@ -602,7 +629,7 @@ body {
         background-color: rgb(255, 51, 51);
         box-shadow: 1px 1px 50px 1px rgb(122, 37, 37);
         width: 80%;
-        max-width: 1200px;
+        max-width: 1000px;
         height: 600px;
         margin: 0 auto;
         border-radius: 80px;
@@ -611,44 +638,34 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+            @media (max-width: 768px) {
+                width: 350px;
+            }
 
         .conteudo {
             width: 80%;
             color: white;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 600;
 
             @media (max-width: 768px) {
-                font-size: 15px;
+                font-size: 16px;
             }
         }
     }
 }
 
 
-.necessario {
+.necessarios {
     position: relative;
-    top: 400px;
+    top: 100px;
 
-    .titulo6 {
-        font-size: 100px;
-        color: white;
-        font-weight: 600;
-        text-align: center;
-        box-shadow: 1px 1px 100px 1px black;
-        margin-bottom: 50px;
-
-        @media (max-width: 768px) {
-            font-size: 30px;
-            margin-bottom: 30px;
-        }
-    }
 }
 
     .segurartudo {
         background-color: rgba(0, 0, 0, 0.486);
         box-shadow: 1px 1px 200px 100px rgba(0, 0, 0, 0.705);
-        height: auto;
+        height: 1350px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -658,13 +675,11 @@ body {
             display: flex;
             justify-content: space-around;
             flex-direction: column;
-            align-items: center;
-            gap: 50px;  
+            gap: 90px;  
 
             .col {
                 display: flex;
-                flex-direction: row;
-                gap: 100px;
+                gap: 400px;
 
                 @media (max-width: 768px) {
                     gap: 1600px;
@@ -679,12 +694,13 @@ body {
                     border-radius: 20px;
                     position: relative;
                     text-align: center;
-    
+                    gap: 30px;
+                
+        
                     img {
-                        position: absolute;
-                        top: 20px;
-                        right: 25px;
                         width: 100px;
+                        top: 20px;
+                        left: 5px;
                     }
     
                     &:hover {
@@ -699,18 +715,22 @@ body {
                     font-size: 25px;
                     font-weight: 600;
                     position: relative;
-                    top: 130%;
-                    right: 95px;
+                    top: 120px;
+                    gap: 1000px;
+                    right: 80px;
+                    @media (max-width: 768px) {
+                        font-size: 20px;
+                    }
                 }
             }
         }
     
         .imagem-central {
             width: 100%;
-            max-width: 600px;
+            max-width: 500px;
             height: auto;
             position: relative;
-            top: 190px;
+            top: 1200px;
     
             img {
                 width: 100%;
@@ -731,13 +751,12 @@ body {
                 gap: 20px;
             }
     
-            .col {
-                gap: 20px;
-            }
-    
             .box4, .box5, .box6, .box7 {
                 width: 120px;
                 height: 120px;
+            }
+            .box6{
+                top: 120px;
             }
     
             p {
@@ -861,7 +880,7 @@ body {
 
 footer {
     position: relative;
-    top: 700px;
+    top: 300px;
     width: 100%;
     height: 200px;
     .col {
@@ -907,3 +926,255 @@ footer {
         }
     }
 
+/* CSS para estilizar o formulário de cadastro */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d71c1c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 20px;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+input,
+textarea,
+button {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #d80f0f;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: rgb(201, 18, 18);
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Para remover setas em alguns navegadores */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form .error-message {
+    color: rgb(255, 6, 6);
+    font-size: 0.875rem;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+
+    .form-container h1 {
+        font-size: 1.8rem;
+    }
+
+    input, textarea, button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+/* Resetando alguns estilos básicos para garantir consistência em todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e00b0b;
+    padding: 20px;
+}
+
+/* Estilos do container do formulário */
+.form-container {
+    width: 100%;
+    max-width: 100%; /* Inicialmente 100% para telas menores */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+.form-container h1 {
+    text-align: center;
+    font-size: 1.5rem; /* Ajustado para mobile */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para os campos de input e textarea */
+input,
+textarea,
+button {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo do input de texto, número e o textarea */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Estilos do botão */
+button {
+    background-color: #5cb85c;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Foco nos inputs e textarea */
+input:focus,
+textarea:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+/* Removendo setas do input de número */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Mensagem de erro */
+form .error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none;
+}
+
+/* Responsividade para telas médias (tablets) e maiores */
+@media (min-width: 600px) {
+    .form-container {
+        max-width: 550px; /* Reduzindo a largura para telas maiores */
+    }
+
+    .form-container h1 {
+        font-size: 1.8rem;
+    }
+
+    input,
+    textarea,
+    button {
+        font-size: 1.1rem; /* Ajustando o tamanho da fonte para telas médias */
+    }
+}
+
+/* Responsividade para telas grandes (desktops) */
+@media (min-width: 1024px) {
+    .form-container {
+        max-width: 600px; /* Ajustando para uma largura mais ampla em desktops */
+    }
+
+    .form-container h1 {
+        font-size: 2rem;
+    }
+
+    input,
+    textarea,
+    button {
+        font-size: 1.2rem;
+    }
+}
